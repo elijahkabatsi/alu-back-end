@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """
-Fetches and displays the TODO list progress of a given employee.
+0-gather_data_from_an_API.py
+
+This module fetches and displays data from an external API.
+It demonstrates basic HTTP GET requests and JSON parsing.
 """
 
 import requests
