@@ -33,8 +33,10 @@ if __name__ == "__main__":
         print("Error: Employee ID must be an integer")
         sys.exit(1)
 
-        employee_name, done_tasks, total_tasks = get_employee_todos(emp_id)
-        print(f"Employee {employee_name} is done with tasks({len(done_tasks)}/{total_tasks}):")
-        for task in done_tasks:
-            print(f"\t {task}")
-
+    employee_name, done_tasks, total_tasks = get_employee_todos(emp_id)
+    print(
+        f"Employee {employee_name} is done with tasks("
+        f"{len(done_tasks)}/{total_tasks}):"
+    )
+    for task in done_tasks:
+        print(f"\t {task}")
